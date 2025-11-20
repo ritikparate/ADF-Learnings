@@ -1,0 +1,9 @@
+{
+	"name": "advance-factory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2bd47a20-d519-4998-a34e-68a649f958ac",
+		"tenantId": "aa2128f0-7299-4d10-bfa7-e7c6ed05b224"
+	}
+}
