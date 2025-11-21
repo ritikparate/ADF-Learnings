@@ -5,6 +5,8 @@
 			{
 				"name": "Execute Pipeline1",
 				"type": "ExecutePipeline",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Failed",
 				"dependsOn": [],
 				"policy": {
 					"secureInput": false
@@ -21,6 +23,8 @@
 			{
 				"name": "alerts",
 				"type": "WebActivity",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Execute Pipeline1",
