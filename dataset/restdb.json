@@ -1,0 +1,18 @@
+{
+	"name": "restdb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsrestapi",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": {
+				"value": "?offset = {offset}",
+				"type": "Expression"
+			}
+		},
+		"schema": []
+	}
+}
