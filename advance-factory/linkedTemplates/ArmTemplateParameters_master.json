@@ -23,6 +23,9 @@
 		"ls_datalake_properties_typeProperties_url": {
 			"value": "https://advancedatalake.dfs.core.windows.net/"
 		},
+		"lsrestapi_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
 		"containerUri": {
 			"value": ""
 		},

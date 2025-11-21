@@ -31,6 +31,10 @@
 			"type": "string",
 			"defaultValue": "https://advancedatalake.dfs.core.windows.net/"
 		},
+		"lsrestapi_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://pokeapi.co/api/v2/pokemon"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -75,6 +79,9 @@
 					},
 					"ls_datalake_properties_typeProperties_url": {
 						"value": "[parameters('ls_datalake_properties_typeProperties_url')]"
+					},
+					"lsrestapi_properties_typeProperties_url": {
+						"value": "[parameters('lsrestapi_properties_typeProperties_url')]"
 					}
 				}
 			},
